@@ -1,4 +1,7 @@
 # HFCI-PU: High-Frequency Compensation Interpolation Network for Point Cloud Upsampling
+
+![example](./Fig/HFCI-PU.png) 
+
 ## Introduction
 
 This is the official Pytorch implementation of our paper "HFCI-PU: High-Frequency Compensation Interpolation Network for Point Cloud Upsampling" ([Paper](https://ieeexplore.ieee.org/document/10755974)) in IEEE Transactions on Instrumentation and Measurement (TIM) 2025. 
@@ -12,7 +15,9 @@ PC2 ([Paper](https://arxiv.org/abs/2109.09337), [Download](https://drive.google.
 
 ## Usage
 
-The code is tested under Pytorch 1.9.0 and Python 3.6 on Ubuntu 18.04. Pretrained weights are available in `pretrain`. 
+The code is tested under Pytorch 1.9.0 and Python 3.6 on Ubuntu 18.04. Pretrained weights are available in 
+[Pretrain (password: ssce)](https://pan.baidu.com/s/1PUT4PcjSrYmZM1cgzZEhYw)
+
 
 1. Install python denpendencies.
 
@@ -37,6 +42,11 @@ python HFCI_PU/main_HFCI_PU.py --phase "train"
 ```shell
 python HFCI_PU/main_HFCI_PU.py --phase "test_hfci_pu"
 ```
+
+## Results
+
+![example](./Fig/Table.png) 
+![example](./Fig/Fig.png) 
 
 ## License
 
