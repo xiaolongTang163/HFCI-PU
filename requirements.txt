@@ -1,0 +1,10 @@
+torch
+torchvision
+tqdm
+matplotlib
+plyfile
+h5py
+kmeans_pytorch
+open3d
+pytorch3d
+pytorch_cluster
