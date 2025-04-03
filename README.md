@@ -43,11 +43,6 @@ python HFCI_PU/main_HFCI_PU.py --phase "train"
 python HFCI_PU/main_HFCI_PU.py --phase "test_hfci_pu"
 ```
 
-## Results
-
-![example](./Fig/Table.png) 
-![example](./Fig/Fig.png) 
-
 ## License
 
 This project is released under the [Apache 2.0 license](./LICENSE). Other codes from open source repository follows the original distributive licenses.
